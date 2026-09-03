@@ -13,7 +13,7 @@ cask "kyon" do
   # release workflow rewrites this file with a pinned version and checksum once
   # a build is published, and `brew upgrade` compares versions from then on.
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Kyon.app"
 
