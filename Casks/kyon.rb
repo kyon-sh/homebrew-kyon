@@ -2,8 +2,7 @@ cask "kyon" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/kyon-sh/kyon/releases/latest/download/Kyon.dmg",
-      verified: "github.com/kyon-sh/kyon/"
+  url "https://github.com/kyon-sh/kyon/releases/latest/download/Kyon.dmg"
   name "Kyon"
   desc "Terminal with a built-in editor, remote work over SSH, and local AI"
   homepage "https://kyon.sh/"
