@@ -1,8 +1,8 @@
 cask "kyon2" do
-  version "0.0.23"
-  sha256 "d0de39920a9caaff24c0467daf782ee37aa314bd6957d07b7e9ea12ecd1a3f80"
+  version "0.0.24"
+  sha256 "2c4313e74b02a5a2e6f369157df8c14b8ee57e4590cabaa447825695460d2a0c"
 
-  url "https://github.com/kyon-sh/kyon2/releases/download/kyon2-v0.0.23/Kyon2-0.0.23.dmg"
+  url "https://github.com/kyon-sh/kyon2/releases/download/kyon2-v0.0.24/Kyon2-0.0.24.dmg"
   name "Kyon2"
   desc "Terminal with blocks, kept sessions and an agent beside every shell"
   homepage "https://kyon.sh"
