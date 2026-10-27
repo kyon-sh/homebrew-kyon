@@ -1,11 +1,11 @@
 cask "kyon2@preview" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.0.58"
-  sha256 arm:   "7e42b78145b26fd2249d4289abd25b428d09d3045422a647c9dd9c45fa25aef4",
-         intel: "a07706442c97a87e5a5793be28c5282d40c19d7364ce12b668b3e8a8b1a182de"
+  version "0.0.59"
+  sha256 arm:   "a46b1be49da93940325f9e0753cdb7e6d042411268c7717e1d9ad016ff37f969",
+         intel: "6f8793fbeab886d6ee80181d922bff7c17e26382b37d88fd5f07ecbfed196c67"
 
-  url "https://github.com/kyon-sh/kyon2/releases/download/kyon2-v0.0.58/Kyon2-#{version}-macos-#{arch}.dmg"
+  url "https://github.com/kyon-sh/kyon2/releases/download/kyon2-v0.0.59/Kyon2-#{version}-macos-#{arch}.dmg"
   name "Kyon2 Preview"
   desc "Terminal with blocks, kept sessions and an agent beside every shell"
   homepage "https://kyon.sh"
