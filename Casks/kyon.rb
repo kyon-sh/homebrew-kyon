@@ -1,11 +1,11 @@
 cask "kyon" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.16"
-  sha256 arm:   "7aeb8ce3d217ffbd0b2a0a64fe9fc541ab9a3e0832632b0d66d391ede8fd4b6b",
-         intel: "4e4ea7379d6504cba583a72924891596865e5c55a79c69ae3605e8db8048f694"
+  version "0.1.17"
+  sha256 arm:   "a741d6f11e7f05a8aa4477c3e7dd0d655b1505ae6c8f3949a90e97b1c6df3993",
+         intel: "5adcecf6fe973a7ad9191d2127d3048bf4c2ee48c44ee866d394e3a581c8e1d8"
 
-  url "https://github.com/kyon-sh/kyon/releases/download/kyon-v0.1.16/Kyon-#{version}-macos-#{arch}.dmg"
+  url "https://github.com/kyon-sh/kyon/releases/download/kyon-v0.1.17/Kyon-#{version}-macos-#{arch}.dmg"
   name "Kyon"
   desc "Terminal with blocks, kept sessions and an agent beside every shell"
   homepage "https://kyon.sh"
